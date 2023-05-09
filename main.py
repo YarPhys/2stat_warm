@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 # import scipy
 from scipy import integrate
 
-N = 20
+N = 200
 T = [[0 for i in range(N)] for j in range(N)]
 x0 = [i*2/N for i in range(N)]
 y0 = [j*2/N for j in range(N)]
